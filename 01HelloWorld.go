@@ -4,9 +4,8 @@
 
 package main
 
-import (
+import 
 	"fmt"
-)
 
 func main() {
 	//Printing Hello world in Japanies to the console Kon'nichiwa sekai
