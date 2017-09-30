@@ -1,7 +1,7 @@
 //Author : Kamila Michel(g00340498)
 //Title: Reverse string
 //Program that reverse a string in Go.
-//Sourcecode adapted from: 
+//Sourcecode adapted from: http://golangcookbook.com/chapters/strings/reverse/
 
 //Main package
 package main 
@@ -23,8 +23,16 @@ func reverse(s string) string {
 
 //Main function
 func main(){
-	//Prints reverse world
-	fmt.Println(reverse("kamila"))
+
+	//Declare vriable
+	var s string
+	//Ask user to input string
+	fmt.Println("Please input your word to reverse: ")
+	fmt.Scanf("%s",&s)
+	//Prints out reversed string
+	fmt.Println("Your reverse world is:",reverse(s))
+	//Prints reversed world
+	//fmt.Println(reverse("kamila"))
 }//End of main function
 
 
