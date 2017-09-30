@@ -1,14 +1,18 @@
 //Author : Kamila Michel(g00340498)
-//Source adapted from: https://tour.golang.org/welcome/4
+//Title: Current time
 //Program that prints current time and date.
+//Source adapted from: https://tour.golang.org/welcome/4
 
+//Main package
 package main
 
+//import format and time
 import (
 	"fmt"
 	"time"
 )
 
+//Main function
 func main() {
 	//Title
 	fmt.Println("This is a current time and date!")
