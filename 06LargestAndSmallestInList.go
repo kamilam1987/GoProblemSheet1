@@ -27,9 +27,9 @@ func main () {
 
 		}
 
-	}//End of for Loop
+	}//End of for loop
 
-	//Outpu the largest and smalest number from array
+	//Output the largest and smalest number from array
 	fmt.Println("The max number is:", maxNumber, "and min number is:", minNumber)
 
 }//End of main function
