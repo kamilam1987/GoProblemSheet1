@@ -10,6 +10,20 @@ package main
 import 
 	"fmt"
 
+//Main function
+func main() {
+	//Declare vriable
+	var s string
+	//Ask user to input string
+	fmt.Println("Please input your word to reverse: ")
+	fmt.Scanf("%s",&s)
+	//Prints out reversed string
+	fmt.Println("Your reverse world is:",reverse(s))
+	//Prints reversed world
+	//fmt.Println(reverse("kamila"))
+	
+}//End of main function
+	
 //Reverse function - reverse string
 func reverse(s string) string {
 	characters := []rune(s)
@@ -20,20 +34,6 @@ func reverse(s string) string {
 		}//End of foor loop
 		return string(characters)
 }//End of reverse function
-
-//Main function
-func main(){
-
-	//Declare vriable
-	var s string
-	//Ask user to input string
-	fmt.Println("Please input your word to reverse: ")
-	fmt.Scanf("%s",&s)
-	//Prints out reversed string
-	fmt.Println("Your reverse world is:",reverse(s))
-	//Prints reversed world
-	//fmt.Println(reverse("kamila"))
-}//End of main function
 
 
 

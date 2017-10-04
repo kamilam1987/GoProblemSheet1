@@ -13,7 +13,7 @@ import
 //Main function
 func main () {
 	//Declare array of integers
-	array := []int64{6, 8, 100, 15, 45, 69, 68}
+	array := []int64{6, 8, 200, 15, 45, 69, 68}
 
 	maxNumber := array[0]
 	minNumber := array[0]
