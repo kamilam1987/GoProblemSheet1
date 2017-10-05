@@ -20,9 +20,13 @@ func main () {
 
 	//Looping array
 	for _, number := range array {
+		//if number from array is biger then max number
 		if number > maxNumber {
+			//Number is the max number
 			maxNumber = number
+		//if number fram array is smaller then min number
 		}else if number < minNumber {
+			//Number is min number
 			minNumber = number
 
 		}
