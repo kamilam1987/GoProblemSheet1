@@ -1,7 +1,7 @@
 //Author : Kamila Michel(g00340498)
 //Title: Merge list and sort
 //Write a function that merges two sorted lists into a new sorted list
-//Source code adapted from: https://stackoverflow.com/questions/5958169/how-to-merge-two-sorted-arrays-into-a-sorted-array, 
+//Source code adapted from: https://stackoverflow.com/questions/5958169/how-to-merge-two-sorted-arrays-into-a-sorted-array, http://austingwalters.com/merge-sort-in-go-golang/ 
 
 //Main package
 package main
@@ -22,7 +22,7 @@ func main () {
 
 }//End of main function
 
-//Merge funcion
+//Merges list1 and list2 slice into new created merged list
 func merge(list1 [] int, list2 [] int) []int {
 	
 	//k - counter for merged list, i - counter for list1, j - counter for list2
