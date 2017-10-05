@@ -24,7 +24,9 @@ func main() {
 //Function which checks if string is a palindrome
 func palindrome(s string) string {
 
+	//The middle of sting lenght
 	mid := len(s) / 2
+	//Last character from string lenght
 	last := len(s) - 1
 
 	//Checking if it's palindrome
