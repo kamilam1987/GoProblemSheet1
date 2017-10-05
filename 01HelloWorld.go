@@ -3,13 +3,11 @@
 //Program that prints “Hello, world!” in Japanese to the screen.
 //Source adapted from: https://tour.golang.org/welcome/1
 
-
 //Main package
 package main
 
-//import format
-import 
-	"fmt"
+//Import format
+import "fmt"
 
 //Main function
 func main() {
