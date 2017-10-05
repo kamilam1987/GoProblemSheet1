@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("Your reverse world is:",reverse(s))
 	//Prints reversed world
 	//fmt.Println(reverse("kamila"))
-	
+
 }//End of main function
 	
 //Reverse function - reverse string
@@ -32,6 +32,8 @@ func reverse(s string) string {
 	for i, j := 0, len(characters)-1; i < j; i, j = i + 1, j - 1 {
 		characters[i], characters[j] = characters[j], characters[i]
 		}//End of foor loop
+
+		//Return string
 		return string(characters)
 }//End of reverse function
 
