@@ -20,7 +20,7 @@ func main() {
 	var x float64
 
 	//Asking user to input number
-	fmt.Println("Please enter number")
+	fmt.Println("Please enter number:")
 	//User input
 	fmt.Scanln(&x)
 

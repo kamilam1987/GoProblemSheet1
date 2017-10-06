@@ -18,6 +18,7 @@ import (
 //Main function
 func main() {
 
+	//Declare variables
 	var guess int
 	number := numRand(1, 50)
 	//Set number of guesses to 5 as a constatnt

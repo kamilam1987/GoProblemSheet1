@@ -4,7 +4,7 @@
 //Source code adapted from:
 // https://stackoverflow.com/questions/5958169/how-to-merge-two-sorted-arrays-into-a-sorted-array,
 //http://austingwalters.com/merge-sort-in-go-golang
-// gobook
+//gobook(pdf)
 
 //Main package
 package main
