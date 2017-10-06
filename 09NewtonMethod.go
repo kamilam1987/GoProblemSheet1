@@ -42,7 +42,7 @@ func newtonMethod(x float64) float64 {
 		zNext = z - ((z*z - x) / (2 * z))
 		//Compare z to the value zNext
 		z = zNext
-
+		//if z is equal to zNext then uses formula
 		if z == zNext {
 			zNext = z - ((z*z - x) / (2 * z))
 
