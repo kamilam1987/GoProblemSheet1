@@ -2,6 +2,8 @@
 //Title: Newton’s method for square roots
 //Program which calculate the square root of a number using Newton’s method. Newton’s method is to approximate the square root of a number x by picking a starting point z and then repeating the following operation.
 //Source code adapted from:
+//https://gist.github.com/sighmin/9173219
+//https://tour.golang.org/flowcontrol/8
 
 //Hint: to declare and initialize a floating point value, give it floating-point syntax or use a conversion:
 //z := float64(1)
